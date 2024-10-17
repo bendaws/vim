@@ -1,6 +1,6 @@
 
                  ================================
-                 [        MicroVim v1.0.0       ]
+                 [        MicroVim v2.1.1       ]
                  ================================
     
                          WHAT IS MICROVIM?
@@ -25,12 +25,8 @@ Use GNU make
 
         make microvim # Required. builds the editor
 
-        make install-mvim # Install to /usr/local/bin with the name
-                            "mvim"
-        make install-microvim # Install to /usr/local/bin with the
-                                name "microvim"
-        
-        make install-both # Copies both names to /usr/local/bin
+        make install # Installs to /usr/local/bin/mvim and
+                       /usr/local/bin/microvim
 
                              LICENSING
 =======================================================================

@@ -2,4 +2,4 @@
 *.o
 *.s
 *.bin
-microvim
+microvim # ignore the binary after build
