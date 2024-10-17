@@ -1,0 +1,10 @@
+Hey! Thanks for installing MicroVim!
+
+If you're seeing this, MicroVim is installed and ready for use.
+
+Press "i" to enter Insert mode. Insert mode lets you write text
+to the screen.
+
+When you're done editing, enter Normal mode by pressing ESC.
+
+If you're already a Vim user, this has a decent learning curve.
