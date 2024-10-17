@@ -69,17 +69,19 @@ struct editorConfig E;
 #define MICROVIM_TAB_STOP 4
 #define MICROVIM_QUIT_TIMES 3
 
-#include "fallback.h" //
-#include "display.h" //
-#include "system.h" //
-#include "terminal.h" //
-#include "key.h" //
-#include "row.h" //
-#include "syntax.h" //
-#include "find.h" //
-#include "file.h" //
-#include "char.h" //
-#include "commands.h" //
+#include "lib/fallback.h" //
+#include "lib/system.h" //
+#include "lib/terminal.h" //
+#include "lib/row.h" //
+#include "lib/file.h" //
+#include "lib/char.h" //
+
+#include "gui/display.h" //
+#include "gui/key.h" //
+
+#include "plugins/pre/syntax.h" //
+#include "plugins/pre/find.h" //
+#include "plugins/pre/commands.h" //
 
 #define CTRL_KEY(k) ((k) & 0x1f)
 
