@@ -152,7 +152,7 @@ void editorProcessKeypress() {
     
     case ':':
       if (mode == "-- NORMAL --") {
-        command_bar(); // todo
+        command_bar();
       } else {
         editorInsertChar(c);
       }

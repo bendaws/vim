@@ -52,9 +52,9 @@ void editorFindCallback(char *query, int key) {
         break;
         }
     }
-    }
+}
 
-    void editorFind() {
+void editorFind() {
     int saved_cx = E.cx;
     int saved_cy = E.cy;
     int saved_coloff = E.coloff;
