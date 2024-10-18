@@ -1,10 +1,13 @@
-Hey! Thanks for installing MicroVim!
-
-If you're seeing this, MicroVim is installed and ready for use.
+Hey! Thanks for installing MicroVim! If you're seeing this, MicroVim
+is installed and ready for use.
 
 Press "i" to enter Insert mode. Insert mode lets you write text
 to the screen.
 
-When you're done editing, enter Normal mode by pressing ESC.
+Use your arrow keys to move around the editor.
+
+When you're done editing, enter Normal mode by pressing ESC (escape).
 
 If you're already a Vim user, this has a decent learning curve.
+
+The GitHub repository is avaliable at https://github.com/bendaws/microvim.
