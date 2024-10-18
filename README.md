@@ -11,9 +11,9 @@ MicroVim is a basic text editor written in scratch from C. There is no real big 
 - [X] Arrow navigation (a cursor)
 - [X] Keyboard shortcuts
 - [X] Modes
-- [X] Commands (in progress)
-- [ ] Lua plugins
+- [X] Lua plugins ``WIP``
 - [ ] Configurations
+- [ ] Commands
 
 ## Install
 You can install MicroVim over GNU Make:
