@@ -1,8 +1,8 @@
 microvim:
 	rm -rf build
 	mkdir build
-	$(CC) src/microvim.c -o build/microvim -Wall -Wextra -pedantic -std=c99
-	cp src/after/thankyou.txt build/thankyou.txt
+	$(CC) microvim.c -o build/microvim -Wall -Wextra -pedantic -std=c99
+	cp after/thankyou.txt build/thankyou.txt
 	./build/microvim build/thankyou.txt
 
 
