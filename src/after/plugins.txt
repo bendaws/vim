@@ -1,0 +1,2 @@
+This folder is for plugins for your small new editor.
+We included a couple during installation (including your command bar).
