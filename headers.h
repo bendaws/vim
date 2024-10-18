@@ -65,6 +65,9 @@ struct editorConfig {
 
 struct editorConfig E;
 
+/* Wonder why this is called "MICROVIM"? si used to be called microvim, and I left it here :)
+    -   ben (oct 18 2022)
+*/
 #define MICROVIM_VERSION "0.0.1"
 #define MICROVIM_TAB_STOP 4
 #define MICROVIM_QUIT_TIMES 3

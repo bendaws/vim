@@ -8,7 +8,7 @@ void command(char query[75]) {
         editorSave();
     } else if (query == "q") {
         if (E.dirty) {
-            editorSetStatusMessage("File has unsaved changes. Use :q! to quit with quit, :w to save.");
+            editorSetStatusMessage("File has unsaved changes. Use :q! to quit!, :w to save.");
         } else {
             write(STDOUT_FILENO, "\x1b[2J", 4);
             write(STDOUT_FILENO, "\x1b[H", 3);
@@ -19,7 +19,7 @@ void command(char query[75]) {
         write(STDOUT_FILENO, "\x1b[H", 3);
         exit(0);
     } else if (query == "git") {
-        editorSetStatusMessage("Git repository: https://github.com/bendaws/microvim");
+        editorSetStatusMessage("Git repository: https://github.com/si-editor/si-editor");
     } else {
         editorSetStatusMessage("Unknown command :%s", query);
     }

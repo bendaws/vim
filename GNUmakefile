@@ -1,12 +1,12 @@
-microvim:
+si:
 	rm -rf build
 	mkdir build
-	$(CC) microvim.c -o build/microvim -Wall -Wextra -pedantic -std=c99
+	$(CC) si.c -o build/si -Wall -Wextra -pedantic -std=c99
 	cp after/thankyou.txt build/thankyou.txt
-	./build/microvim build/thankyou.txt
+	./build/si build/thankyou.txt
 
 
 install:
-	sudo cp build/microvim /usr/local/bin/microvim
-	echo "alias mvim=/usr/local/bin/microvim" >> ~/.bashrc
-	echo "alias mim=/usr/local/bin/microvim" >> ~/.bashrc
+	sudo cp build/si /usr/local/bin/si
+	echo "alias siedit=/usr/local/bin/si" >> ~/.bashrc
+	echo "alias simodify=/usr/local/bin/si" >> ~/.bashrc
