@@ -1,4 +1,4 @@
-# si
+# si 4.1
 si is a basic text editor written in scratch from C. There is no real big benefit to it; I just didn't want to learn how to use Vim or a super complicated editor, so I implemented the basics of it myself.
 
 ## Features
