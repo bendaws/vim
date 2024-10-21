@@ -1,5 +1,5 @@
-# si 4.1
-si is a basic text editor written in scratch from C. There is no real big benefit to it; I just didn't want to learn how to use Vim or a super complicated editor, so I implemented the basics of it myself.
+# vim2 4.1
+vim2 is a basic text editor written in scratch from C. There is no real big benefit to it; I just didn't want to learn how to use Vim or a super complicated editor, so I implemented the basics of it myself.
 
 ## Features
 - Two modes: `-- NORMAL --` and `-- INSERT --`
@@ -17,18 +17,14 @@ si is a basic text editor written in scratch from C. There is no real big benefi
 - [ ] Commands
 
 ## Install
-You can install si over GNU Make:
+You can install vim2 over GNU Make:
 ```bash
-make si # make the editor
+make vim2 # make the editor
 make install # installs to /usr/local/bin (Linux/OSX only)
 
 # Here is how to run microvim
-si file.txt
-
-# These aliases are also created during install. You can remove them from your ~/.bashrc
-siedit file.txt
-simodify file.txt
+vim2 file.txt
 ```
 
 ## License
-si is licensed under GNU LGPL v2.1. Read it [here](/LICENSE).
+vim2 is licensed under GNU LGPL v2.1. Read it [here](/LICENSE).
