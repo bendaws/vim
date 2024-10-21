@@ -32,7 +32,7 @@ function onCommandBar()
 
     for _, commandTemplate in commands do
         if commandTemplate[1] == command[1] then
-            commandTemplate[2]()
+            commandTemplate[2](command)
         end    
     end
 end
