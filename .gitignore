@@ -1,5 +1,8 @@
+# binaries
 *.exe
 *.o
 *.s
 *.bin
-microvim # ignore the binary after build
+
+# build directory
+build/

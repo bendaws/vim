@@ -19,7 +19,7 @@ void command(char query[75]) {
         write(STDOUT_FILENO, "\x1b[H", 3);
         exit(0);
     } else if (query == "git") {
-        editorSetStatusMessage("Git repository: https://github.com/si-editor/si-editor");
+        editorSetStatusMessage("Git repository: https://github.com/jamboington/text-editor");
     } else {
         editorSetStatusMessage("Unknown command :%s", query);
     }
