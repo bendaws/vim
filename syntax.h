@@ -27,7 +27,7 @@ struct editorSyntax {
 #define HL_HIGHLIGHT_NUMBERS (1<<0)
 #define HL_HIGHLIGHT_STRINGS (1<<1)
 
-char *C_HL_extensions[] = { ".c", ".h", ".cpp", NULL };
+char *C_HL_extensions[] = { ".c", ".h", NULL };
 char *C_HL_keywords[] = {
   "switch", "if", "while", "for", "break", "continue", "return", "else",
   "struct", "union", "typedef", "static", "enum", "class", "case",
@@ -36,11 +36,27 @@ char *C_HL_keywords[] = {
   "void|", NULL
 };
 
+char *CPP_HL_extensions[] = { ".cc", ".hh", ".cpp", ".hpp" };
+char *CPP_HL_keywords[] = {
+  "switch", "if", "while", "for", "break", "continue", "return", "else",
+  "struct", "union", "typedef", "static", "enum", "class", "case",
+
+  "int|", "long|", "double|", "float|", "char|", "unsigned|", "signed|",
+  "void|", "class|", "template|", "public|", "private|", "static|", NULL
+};
+
 struct editorSyntax HLDB[] = {
   {
     "C",
     C_HL_extensions,
     C_HL_keywords,
+    "//", "/*", "*/",
+    HL_HIGHLIGHT_NUMBERS | HL_HIGHLIGHT_STRINGS
+  },
+{
+    "C++",
+    CPP_HL_extensions,
+    CPP_HL_keywords,
     "//", "/*", "*/",
     HL_HIGHLIGHT_NUMBERS | HL_HIGHLIGHT_STRINGS
   },
